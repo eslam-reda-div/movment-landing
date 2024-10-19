@@ -87,7 +87,7 @@ export const Card = ({
       }}
       className="tw-max-w-5xl tw--mt-12 tw-mx-auto tw-h-[30rem] md:tw-h-[40rem] tw-w-full tw-border-4 tw-border-[#6C6C6C] tw-p-2 md:tw-p-6 tw-bg-[#222222] tw-rounded-[30px] tw-shadow-2xl"
     >
-      <div className="tw-rounded-[27px] tw-h-full tw-w-full tw-overflow-hidden tw-bg-gray-100 dark:tw-bg-zinc-900 md:tw-rounded-2xl md:tw-p-4">
+      <div className="tw-rounded-[27px] tw-h-full tw-w-full tw-overflow-hidden tw-bg-gray-100 md:tw-rounded-2xl md:tw-p-4">
         {children}
       </div>
     </motion.div>
@@ -100,7 +100,7 @@ export function Dashboard() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="tw-text-4xl tw-font-semibold tw-text-black dark:tw-text-white">
+            <h1 className="tw-text-4xl tw-font-semibold tw-text-black">
               Unleash the power of <br />
               <span className="tw-text-4xl md:tw-text-[6rem] tw-font-bold tw-mt-1 tw-leading-none">
                 Scroll Animations
