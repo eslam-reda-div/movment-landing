@@ -3193,7 +3193,7 @@ input:focus, select:focus, textarea:focus, .form-control:focus {
 ====================================== */
 /* Background color */
 .bg-base-color {
-  background-color: var(--base-color);
+  background-color: #FE9900;
 }
 .bg-dark-gray,
 .bg-dark-gray:focus {

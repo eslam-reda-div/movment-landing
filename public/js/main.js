@@ -2241,7 +2241,7 @@
     $(window).on("load", function () {
         $('.page-loader').show();
         setTimeout(function () {
-            $('.page-loader').fadeOut();
+            $('.page-loader').hide();
         }, 1000);
     });
 

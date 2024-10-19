@@ -1,7 +1,7 @@
 function Team() {
     return (
         <>
-            <section className="position-relative">
+            <section id="my_team" className="position-relative">
                 <div
                     id="particles-03"
                     data-particle="true"
@@ -13,7 +13,7 @@ function Team() {
                 <div className="container">
                     <div className="row justify-content-center mb-3">
                         <div className="col-lg-7 text-center appear anime-complete" data-anime='{"opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad"}'>
-                            <span className="fw-600 ls-1px fs-16 alt-font mb-5px d-inline-block text-uppercase text-base-color">Meet our people</span>
+                            <span className="fw-600 ls-1px fs-16 alt-font mb-5px d-inline-block text-uppercase" style={{color:"#595B99"}}>Meet our people</span>
                             <h2 className="alt-font text-dark-gray fw-600 ls-minus-2px">Leading experts</h2>
                         </div>
                     </div>
@@ -21,12 +21,11 @@ function Team() {
                         {/* start team member item */}
                         <div className="col text-center team-style-05 md-mb-40px">
                             <div className="position-relative border-radius-4px overflow-hidden mb-30px last-paragraph-no-margin">
-                                <img src="images/team-08.jpg" alt="" data-no-retina="" />
+                                <img src="images/team-09.jpg" alt="" data-no-retina="" />
                                 <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center p-40px lg-p-30px team-content bg-gradient-dark-orange-transparent">
                                     <div className="social-icon fs-20">
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-dribbble"></i></a>
-                                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-envelope"></i></a>
+                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-phone"></i></a>
                                     </div>                                
                                 </div>
                             </div>
@@ -40,9 +39,8 @@ function Team() {
                                 <img src="images/team-09.jpg" alt="" data-no-retina="" />
                                 <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center p-40px team-content bg-gradient-dark-orange-transparent">
                                     <div className="social-icon fs-20">
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-dribbble"></i></a>
-                                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-twitter"></i></a>
+                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-envelope"></i></a>
+                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-phone"></i></a>
                                     </div>                              
                                 </div>
                             </div>
@@ -53,13 +51,12 @@ function Team() {
                         {/* start team member item */ }
                         <div className="col text-center team-style-05 xs-mb-40px">
                             <div className="position-relative border-radius-4px overflow-hidden mb-30px last-paragraph-no-margin">
-                                <img src="images/team-10.jpg" alt="" data-no-retina="" />
+                                <img src="images/team-09.jpg" alt="" data-no-retina="" />
                                 <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center p-40px team-content bg-gradient-dark-orange-transparent">
                                     <div className="social-icon fs-20">
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-dribbble"></i></a>
-                                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-twitter"></i></a>
-                                    </div>                               
+                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-envelope"></i></a>
+                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-phone"></i></a>
+                                    </div>                             
                                 </div>
                             </div>
                             <div className="alt-font fw-600 text-dark-gray lh-22 fs-18">Matthew Taylor</div>
@@ -72,10 +69,9 @@ function Team() {
                                 <img src="images/team-11.jpg" alt="" data-no-retina="" />
                                 <div className="w-100 h-100 d-flex flex-column justify-content-center align-items-center p-40px team-content bg-gradient-dark-orange-transparent">
                                     <div className="social-icon fs-20">
-                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-facebook-f"></i></a>
-                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-dribbble"></i></a>
-                                        <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-brands fa-twitter"></i></a>
-                                    </div>                               
+                                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-envelope"></i></a>
+                                        <a href="http://www.dribbble.com" target="_blank" rel="noopener noreferrer" className="text-white"><i className="fa-solid fa-phone"></i></a>
+                                    </div>                              
                                 </div>
                             </div>
                             <div className="alt-font fw-600 text-dark-gray lh-22 fs-18">Johncy Parker</div>

@@ -39,7 +39,7 @@ body {
     color: var(--dark-gray);
 }
 a, .social-icon-style-10 ul li a:hover {
-    color: var(--dark-gray) ;
+    /* color: var(--dark-gray) !important; */
 }
 .google-maps-link a {
     color: var(--white) !important;
