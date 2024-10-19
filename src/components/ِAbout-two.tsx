@@ -1,30 +1,30 @@
 function About() {
   return (
     <section id="my_about" className="position-relative half-section">
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <div className="row">
           <div className="p-0 overlap-section position-absolute right-0px text-end w-auto xs-w-200px z-index-minus-1 skrollable skrollable-between" 
                style={{ transform: 'translateY(-17.1822px)', marginTop: '-589px' }}>
-            {/* <img src="/images/demo-application-home-bg-right.png" alt="Background Right" /> */}
+             <img src="/images/demo-application-home-bg-right.png" alt="Background Right" /> 
           </div>
         </div>
-      </div>
-      <div className="position-absolute left-0px bottom-minus-100px w-auto xs-w-180px z-index-minus-1 skrollable skrollable-between" 
+      </div> */}
+      {/* <div className="position-absolute left-0px bottom-minus-100px w-auto xs-w-180px z-index-minus-1 skrollable skrollable-between" 
            style={{ transform: 'translateY(-4.26587px)' }}>
-        {/* <img src="/images/demo-application-home-bg-left.png" alt="Background Left" /> */}
-      </div>
+        <img src="/images/demo-application-home-bg-left.png" alt="Background Left" />
+      </div> */}
       <div className="container">
         <div className="row align-items-center justify-content-center">
           <div className="col-lg-7 position-relative md-mb-20px appear">
             <figure>
-              <div className="atropos atropos-rotate-touch">
-                <div className="atropos-scale">
-                  <div className="atropos-rotate">
-                    <div className="atropos-inner">
+              <div className=" stop=atropos-rotate-touch">
+                <div className="stop=atropos-scale">
+                  <div className="stop=atropos-rotate">
+                    <div className="stop=atropos-inner">
                       <img src="/images/iphone-mockups.png" alt="Demo Application" />
-                      <span className="atropos-highlight"></span>
+                      <span className="stop=atropos-highlight"></span>
                     </div>
-                    <span className="atropos-shadow"></span>
+                    <span className="stop=atropos-shadow"></span>
                   </div>
                 </div>
               </div>

@@ -15,3 +15,16 @@ html {
 .pr-35px {
     padding-right: 35px !important;
 }
+
+@media (max-width: 768px) {
+    /* Your styles here */
+    .hero-image-sizer {
+        height: 400px;
+    }
+}
+
+@media (min-width: 769px) {
+    .hero-image-sizer {
+        height: 700px;
+    }
+}

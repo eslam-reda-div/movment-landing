@@ -28,25 +28,25 @@ function Feature() {
                     alt="Data management graphic"
                   /> */}
                 </div>
-                <div className="col-xl-8 col-lg-7 col-md-6 position-relative atropos atropos-rotate-touch">
+                <div className="col-xl-8 col-lg-7 col-md-6 position-relative stop=atropos stop=atropos-rotate-touch">
                   <div
-                    className="atropos-scale"
+                    className="stop=atropos-scale"
                     style={{
                       transform: "translate3d(0px, 0px, 0px)",
                       transitionDuration: "300ms",
                     }}
                   >
                     <div
-                      className="atropos-rotate"
+                      className="stop=atropos-rotate"
                       style={{
                         transitionDuration: "300ms",
                         transform:
                           "translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg)",
                       }}
                     >
-                      <div className="atropos-inner text-center">
+                      <div className="stop=atropos-inner text-center">
                         <div
-                          data-atropos-offset="-5"
+                          // data-stop=atropos-offset="-5"
                           className="position-absolute left-0px right-0px"
                           style={{
                             transitionDuration: "300ms",
@@ -60,13 +60,13 @@ function Feature() {
                         </div>
                         <img
                           style={{ height: "750px" }}
-                          data-atropos-offset="5"
+                          // data-stop=atropos-offset="5"
                           className="position-relative z-index-9"
                           src="/images/Mockup_1.png"
                           alt="Manage data"
                         />
                         <span
-                          className="atropos-highlight"
+                          className="stop=atropos-highlight"
                           style={{
                             transform: "translate3d(0px, 0px, 0px)",
                             transitionDuration: "300ms",
@@ -75,7 +75,7 @@ function Feature() {
                         ></span>
                       </div>
                       <span
-                        className="atropos-shadow"
+                        className="stop=atropos-shadow"
                         style={{
                           transform: "translate3d(0px, 0px, -50px) scale(1)",
                           transitionDuration: "300ms",
@@ -116,25 +116,25 @@ function Feature() {
                     alt="Easy payment graphic"
                   /> */}
                 </div>
-                <div className="col-xl-8 col-lg-7 col-md-6 position-relative atropos atropos-rotate-touch">
+                <div className="col-xl-8 col-lg-7 col-md-6 position-relative stop=atropos stop=atropos-rotate-touch">
                   <div
-                    className="atropos-scale"
+                    className="stop=atropos-scale"
                     style={{
                       transform: "translate3d(0px, 0px, 0px)",
                       transitionDuration: "300ms",
                     }}
                   >
                     <div
-                      className="atropos-rotate"
+                      className="stop=atropos-rotate"
                       style={{
                         transitionDuration: "300ms",
                         transform:
                           "translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg)",
                       }}
                     >
-                      <div className="atropos-inner text-center">
+                      <div className="stop=atropos-inner text-center">
                         <div
-                          data-atropos-offset="-5"
+                          // data-stop=atropos-offset="-5"
                           className="position-absolute left-0px right-0px"
                           style={{
                             transitionDuration: "300ms",
@@ -148,13 +148,13 @@ function Feature() {
                         </div>
                         <img
                           style={{ height: "750px" }}
-                          data-atropos-offset="5"
+                          // data-stop=atropos-offset="5"
                           className="position-relative z-index-9"
                           src="/images/Mockup_2.png"
                           alt="Easy payment"
                         />
                         <span
-                          className="atropos-highlight"
+                          className="stop=atropos-highlight"
                           style={{
                             transform: "translate3d(0px, 0px, 0px)",
                             transitionDuration: "300ms",
@@ -163,7 +163,7 @@ function Feature() {
                         ></span>
                       </div>
                       <span
-                        className="atropos-shadow"
+                        className="stop=atropos-shadow"
                         style={{
                           transform: "translate3d(0px, 0px, -50px) scale(1)",
                           transitionDuration: "300ms",
@@ -204,25 +204,25 @@ function Feature() {
                     alt="Free support graphic"
                   /> */}
                 </div>
-                <div className="col-xl-8 col-lg-7 col-md-6 position-relative atropos atropos-rotate-touch">
+                <div className="col-xl-8 col-lg-7 col-md-6 position-relative stop=atropos stop=atropos-rotate-touch">
                   <div
-                    className="atropos-scale"
+                    className="stop=atropos-scale"
                     style={{
                       transform: "translate3d(0px, 0px, 0px)",
                       transitionDuration: "300ms",
                     }}
                   >
                     <div
-                      className="atropos-rotate"
+                      className="stop=atropos-rotate"
                       style={{
                         transitionDuration: "300ms",
                         transform:
                           "translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg)",
                       }}
                     >
-                      <div className="atropos-inner text-center">
+                      <div className="stop=atropos-inner text-center">
                         <div
-                          data-atropos-offset="-5"
+                          // data-stop=atropos-offset="-5"
                           className="position-absolute left-0px right-0px"
                           style={{
                             transitionDuration: "300ms",
@@ -236,13 +236,13 @@ function Feature() {
                         </div>
                         <img
                           style={{ height: "750px" }}
-                          data-atropos-offset="5"
+                          // data-stop=atropos-offset="5"
                           className="position-relative z-index-9"
                           src="/images/Mockup_3.png"
                           alt="Free support"
                         />
                         <span
-                          className="atropos-highlight"
+                          className="stop=atropos-highlight"
                           style={{
                             transform: "translate3d(0px, 0px, 0px)",
                             transitionDuration: "300ms",
@@ -251,7 +251,7 @@ function Feature() {
                         ></span>
                       </div>
                       <span
-                        className="atropos-shadow"
+                        className="stop=atropos-shadow"
                         style={{
                           transform: "translate3d(0px, 0px, -50px) scale(1)",
                           transitionDuration: "300ms",

@@ -33,7 +33,8 @@ function Hero() {
                 <div className="text-end w-90 lg-w-80 ms-auto animation-float">
                   <img
                     src="/images/hero-mockup.png"
-                    style={{ height: "800px", maxWidth: "fit-content" }}
+                    style={{  maxWidth: "fit-content" }}
+                    className="hero-image-sizer"
                     alt=""
                     data-no-retina=""
                   />
