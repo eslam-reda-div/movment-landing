@@ -1,6 +1,6 @@
 import { Dashboard } from "./components/Dashboard";
 import Download from "./components/Download";
-import Faqs from "./components/faqs";
+import Faqs from "./components/questtions";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
