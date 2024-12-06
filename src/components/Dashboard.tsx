@@ -110,7 +110,7 @@ export function Dashboard() {
         }
       >
         <img
-          src="/images/image.png"
+          src="/IMG-20241204-WA0016(1).jpg"
           alt="dashboard"
           height={720}
           width={1400}
