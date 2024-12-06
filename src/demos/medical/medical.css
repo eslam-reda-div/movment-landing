@@ -84,8 +84,8 @@ header .navbar-brand img {
 .btn.btn-transparent-light-gray:active,
 .btn.btn-box-shadow.btn-base-color:hover,
 .btn.btn-box-shadow.btn-base-color:active{
-    background-color: var(--base-color);
-    border-color: var(--base-color);
+    background-color: #989DDF;
+    border-color: #989DDF;
     color: var(--white);
 }
 .btn.btn-base-color:hover {

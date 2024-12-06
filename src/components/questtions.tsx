@@ -8,20 +8,20 @@ interface Faq {
 const Faqs: React.FC = () => {
   const faqs: Faq[] = [
     {
-      question: "How long is this site live?",
-      answer: "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy text ever unknown printer.",
+      question: "ما هو Mouvement وكيف يعمل؟",
+      answer: "Mouvement هو تطبيق مبتكر مصمم لتحسين خدمات النقل العام من خلال توفير التتبع في الوقت الفعلي، والتحسين المدعوم بالذكاء الاصطناعي، وسهولة حجز الرحلات. يستخدم نموذج البرمجيات كخدمة (SaaS) لمساعدة الشركات على إدارة عمليات الحافلات بكفاءة مع توفير طريقة سلسة للركاب لتتبع رحلاتهم وحجزها.",
     },
     {
-      question: "Can I install/upload anything I want on there?",
-      answer: "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy text ever unknown printer.",
+      question: "ما مدى دقة التتبع في الوقت الفعلي للحافلات؟",
+      answer: "التتبع في الوقت الفعلي في Mouvement دقيق للغاية، حيث يوفر تحديثات مباشرة عن مواقع الحافلات. يستخدم التطبيق تقنية GPS متقدمة لضمان معرفة الركاب دائمًا بموقع حافلتهم بالضبط، مما يساعدهم على التخطيط لرحلاتهم بثقة.",
     },
     {
-      question: "How can I migrate to another site?",
-      answer: "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy text ever unknown printer.",
+      question: "هل يمكنني حجز تذاكر الحافلات مباشرة من خلال التطبيق؟",
+      answer: "نعم، يمكنك ذلك! يتيح لك Mouvement حجز تذاكر الحافلات بسهولة مباشرة من خلال التطبيق. ما عليك سوى اختيار المسار والجدول الزمني المطلوب، وإكمال الحجز في خطوات بسيطة.",
     },
     {
-      question: "Can I change the domain you give me?",
-      answer: "Lorem ipsum is simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy text ever unknown printer.",
+      question: "كيف يقوم الذكاء الاصطناعي بتحسين توزيع الحافلات؟",
+      answer: "يقوم الذكاء الاصطناعي في Mouvement بتحليل البيانات في الوقت الفعلي حول حركة الحافلات وطلب الركاب لضبط توزيع الحافلات بشكل ديناميكي. يساعد هذا في تقليل الازدحام، وتحسين استهلاك الوقود، وضمان وجود الحافلات حيث تكون الحاجة إليها أكبر، مما يحسن الكفاءة والموثوقية بشكل عام.",
     },
   ];
 
@@ -30,8 +30,8 @@ const Faqs: React.FC = () => {
       <div className="container">
         <div className="row"> 
           <div className="col-xxl-4 col-lg-5 position-relative md-mb-25px appear anime-child anime-complete">
-            <h2 className="fw-700 alt-font text-dark-gray ls-minus-2px">Have a hosting question?</h2>
-            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry has been.</p>
+            <h2 className="fw-700 text-dark-gray ls-minus-2px">هل لديك سؤال؟</h2>
+            <p>نحن هنا للإجابة على جميع استفساراتك حول خدماتنا</p>
           </div>
           <div className="col-xxl-7 col-lg-7 offset-xxl-1">  
             <div className="accordion accordion-style-02 appear anime-child anime-complete" id="accordion-style-02">
@@ -39,7 +39,7 @@ const Faqs: React.FC = () => {
                 <div className="accordion-item" key={index}>
                   <div className="accordion-header border-bottom border-color-extra-medium-gray">
                     <a href="#" data-bs-toggle="collapse" data-bs-target={`#accordion-style-02-${index + 1}`} aria-expanded="false" data-bs-parent="#accordion-style-02" className="collapsed">
-                      <div className="accordion-title mb-0 position-relative text-dark-gray pe-30px">
+                      <div className="mb-0 accordion-title position-relative text-dark-gray pe-30px">
                         <i className="feather icon-extra-medium icon-feather-chevron-down"></i>
                         <span className="fw-600 fs-18">{faq.question}</span>
                       </div>
@@ -54,32 +54,6 @@ const Faqs: React.FC = () => {
               ))}
             </div>
           </div>   
-        </div>
-        <div className="row justify-content-center mt-5">
-          <div className="col-auto icon-with-text-style-08 sm-mb-10px appear anime-complete">
-            <div className="feature-box feature-box-left-icon-middle">
-              <div className="feature-box-icon me-10px">
-                <i className="bi bi-envelope icon-small text-dark-gray" aria-hidden="true"></i>
-              </div>
-              <div className="feature-box-content">
-                <span className="alt-font text-dark-gray fw-500 fs-18">
-                  Looking for help? <a href="#" className="text-decoration-line-bottom text-dark-gray fw-600">Submit a ticket</a>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="col-auto icon-with-text-style-08 appear anime-complete">
-            <div className="feature-box feature-box-left-icon-middle">
-              <div className="feature-box-icon me-10px">
-                <i className="bi bi-chat-dots icon-small text-dark-gray" aria-hidden="true"></i>
-              </div>
-              <div className="feature-box-content">
-                <span className="alt-font text-dark-gray fw-500 fs-18">
-                  Keep in Touch. <a href="#" className="text-decoration-line-bottom text-dark-gray fw-600">Like us on Facebook</a>
-                </span>
-              </div>
-            </div>
-          </div>
         </div>
       </div> 
     </section>

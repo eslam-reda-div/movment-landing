@@ -2,7 +2,7 @@ function Navbar() {
   return (
     <>
       {/* start header */}
-      <header dir="rtl" id="my_navbar">
+      <header id="my_navbar">
         {/* start navigation */}
         <nav className="bg-white navbar navbar-expand-lg header-light disable-fixed">
           <div className="container-fluid">

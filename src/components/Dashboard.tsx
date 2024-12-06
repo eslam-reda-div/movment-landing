@@ -101,9 +101,9 @@ export function Dashboard() {
         titleComponent={
           <>
             <h1 className="tw-text-4xl tw-font-semibold tw-text-black">
-              Unleash the power of <br />
+              تمكين إدارة النقل الخاصة بك <br />
               <span className="tw-text-4xl md:tw-text-[6rem] tw-font-bold tw-mt-1 tw-leading-none">
-                Scroll Animations
+                لوحة تحكم مبسطة
               </span>
             </h1>
           </>

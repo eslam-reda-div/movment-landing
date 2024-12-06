@@ -4,12 +4,12 @@ function Footer() {
       <footer id="my_footer" className="p-0">
         <div className="overflow-hidden footer-top bg-dark-gray pt-35px pb-35px border-radius-6px lg-no-border-radius position-relative">
           <div className="position-absolute right-minus-100px bottom-minus-80px margin-100px-top opacity-1 w-250px">
-            <img
+            {/* <img
               src="/images/demo-medical-pattern-white.svg"
               alt=""
               className=""
               data-no-retina=""
-            />
+            /> */}
           </div>
           <div className="container">
             <div className="row align-items-center">

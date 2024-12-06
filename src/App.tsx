@@ -18,11 +18,11 @@ function App() {
                 <Navbar />
                 <Hero />
                 <About />
-                <Statistics />
+                {/* <Statistics /> */}
                 <Feature />
                 <Dashboard />
                 <Download />
-                <Team />
+                {/* <Team /> */}
                 <Faqs />
                 <Footer />
             </div>

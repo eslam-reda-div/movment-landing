@@ -3,11 +3,11 @@ function Download() {
     <>
       <section
         id="my_download"
-        className="overflow-hidden position-relative bg-gradient-very-light-gray py-0 lg-pt-8 lg-pb-8"
+        className="py-0 overflow-hidden position-relative bg-gradient-very-light-gray lg-pt-8 lg-pb-8"
       >
         <div
           id="particles-style-02"
-          className="h-100 position-absolute left-0px top-0 w-100"
+          className="top-0 h-100 position-absolute left-0px w-100"
           data-particle="true"
           data-particle-options='{"particles": {"number": {"value": 18,"density": {"enable": true,"value_area": 2000}},"color": {"value": ["#8f76f5", "#a65cef", "#c74ad2", "#e754a4", "#ff6472"]},"shape": {"type": "circle","stroke":{"width":0,"color":"#000000"},"opacity": {"value": 0.3,"random": false,"anim": {"enable": false,"speed": 1,"sync": false}},"size": {"value": 8,"random": true,"anim": {"enable": false,"sync": true}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.4,"width":1},"move": {"enable": true,"speed":1,"direction": "right","random": false,"straight": false},"interactivity": {"detect_on": "canvas","events": {"onhover": {"enable": false,"mode": "repulse"},"onclick": {"enable": false,"mode": "push"},"resize": true},"retina_detect": false}}'
         >
@@ -46,14 +46,13 @@ function Download() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-5 offset-lg-1 col-md-8 text-center text-lg-end" dir="rtl">
-              <h3 className="fw-800 text-dark-gray ls-minus-1px">
-                Download the travellers app now!
-              </h3>
-              <span className="fs-18 w-80 xl-w-100 d-block mb-35px">
-                Your ultimate travel partner. Carries the information you need
-                while travelling.
-              </span>
+            <div className="text-center col-lg-5 offset-lg-1 col-md-8 text-lg-end" dir="rtl">
+            <h3 className="fw-800 text-dark-gray ls-minus-1px">
+              حمل التطبيق الآن
+            </h3>
+            <span className="fs-18 w-80 xl-w-100 d-block mb-35px">
+              رفيق سفرك المثالي - كل المعلومات التي تحتاجها لرحلات سلسة
+            </span>
               <div className="row xl-pe-0 justify-content-center justify-content-lg-start">
                 <a href="#" className="col-6 col-lg-6 col-sm-5">
                   <img
